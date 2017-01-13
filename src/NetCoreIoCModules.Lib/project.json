@@ -1,0 +1,23 @@
+{
+  "authors": [ "Jedielson Nakonieczni" ],
+  "description": "Provide a way to modularize services using .Net Core Ioc Container",
+
+  "version": "1.0.0-*",
+
+  "packOptions": {
+    "requireLicenseAcceptance": true,
+    "owners": [ "Jedielson Nakonieczni" ],
+    "tags": ["ioc", "dotnet-core"]
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+    }
+  }
+}
